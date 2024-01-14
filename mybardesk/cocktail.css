@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;          
+    background: url('bg2.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.title{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+.picture{
+    
+    height: 500px;
+    
+    margin-top:50px;
+    border-radius: 20px;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.materials{
+    border: 2px solid transparent;
+    height: 500px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 50px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    color: #fff;
+    font-size: 25px;
+    
+}
+.recipe{
+    border: 2px solid transparent;
+    margin-top: 50px;
+    height: 200px;
+    width: 1000px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(20px);
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 25px;
+}
+.video{
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.mainbar{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}   
+.navigation{
+    background-color: black;
+    line-height: 50px;
+}
+.links{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 25px;
+    padding: 15px;
+    background-color: none;
+    line-height: 20px;
+    font-size: 20px;
+}
+.navigation a{
+    padding: 15px;
+    border-radius: 10px;
+}
+.links:hover{
+    padding: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    transition-duration: .6s;
+}
+.vdeo {
+ height: 10px;  
+}

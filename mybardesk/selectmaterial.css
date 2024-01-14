@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('bg2.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.materials_box{
+    
+    
+    text-align:justify;
+    width: 30%;
+    height: 350px;
+    overflow:auto;
+    display: inline-block;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    position: relative; top:50px; left: 35%;
+    
+}
+
+.secenek{
+margin-left: 10px;
+width: 20px;
+height: 20px;
+border: 2px solid #fff;
+border-radius: 3px;
+vertical-align: middle;
+
+
+
+}
+input[type="checkbox"]:checked {
+    background-color: black; 
+  }
+.fotograf{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+
+}
+.label1{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+}
+::-webkit-scrollbar{
+    backdrop-filter: blur(20px);
+}
+::-webkit-scrollbar-thumb {
+    background: #fff; 
+    border-radius: 20px; 
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 20px; 
+    position: absolute;
+    bottom: 180px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+.home_box{
+    text-align:justify;
+    width: 60%;
+    height: 600 px;
+    overflow:auto;
+    display: inline-block;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    position: relative; top:50px; left: 20%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    
+    margin-top: 120px; 
+    margin: 120px auto 0;
+    
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color:#333;
+    font-weight: 600;
+}
+.filec {
+    background:none;
+   font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+       
+ }
+ .idiot{
+    width: 10px;
+    height: 10px;
+    
+ }
